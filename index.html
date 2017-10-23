@@ -6,7 +6,7 @@
             <meta name="description" content="">
             <meta name="author" content="">
             <title>Refugee Learning Accelerator - MIT Media Lab</title>
-            <link href="/css/bootstrap.min.css" rel="stylesheet">
+            <!-- <link href="/css/bootstrap.min.css" rel="stylesheet">
                 <link href="/css/carousel.css" rel="stylesheet">
             <link href="/css/creative.min.css" rel="stylesheet">
                 <link href="/css/main.css" rel="stylesheet" type="text/css">
@@ -15,28 +15,71 @@
             <script src="/js/bootstrap.min.js"></script>
             <script src="/js/npm.js"></script>
             <script type="text/javascript">$(document).ready(function() {$('dropdown-toggle').dropdown()});</script>
+ -->    
+            <style type="text/css">
+            .header-content{
+                color:white;
+                height: 500px;
+                background-image:url(Media_Lab_Edited.jpg);
+                background-size:cover;
+                font-family: helvetica;
+
+               /* background-position: top center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;*/
+            }
+            h1{
+                padding: 100px;
+            }
+            h2{
+                font-size: 30px;
+                font-family: helvetica;
+                padding: 30px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            hr{
+                display: block;
+                width: 50px;
+                border-color: black;
+            }
+            p{
+                font-size: 18px;
+            }
+            .container_member{
+                padding: 10px;
+                text-align: center;
+                font-family: helvetica;
+            }
+            .header-content-inner{
+                text-align: center;
+                font-family: helvetica;
+            }
+        </style>
     </head>
-                              <body>
-                              <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top" style="background-color: white">
+     <body>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top" style="background-color: white">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="https://www.media.mit.edu/"><img alt="Media Lab" src="/Mit_medialab_logo.png" height="30px" width="30px"></a>
-                <a class="navbar-brand" href="/">Refugee Learning Accelerator</a>
+                </button> -->
+                <a class="navbar-brand page-scroll" href="https://www.media.mit.edu/"><img style ="margin-left:5px; margin-top: 5px" alt="Media Lab" src="Mit_medialab_logo.png" height="30px" width="30px"></a>
+                <font size = "4"><a class="navbar-brand" style="font-family:helvetica; color:black; text-decoration:none" href="http://refugeelearning.media.mit.edu/"><b>REFUGEE LEARNING ACCELERATOR</b></a></font>
+                <a style = "font-size:18px; font-family:helvetica; margin-top: 20px; margin-right: 10px; float: right;"><b>TEAM NAME</b></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right"> 
                 <li><a class="active class1" href="/about">About</a></li>
                 <li><a href="/program">How it Works</a></li>
                 <li><a href="/FAQ">FAQ</a></li>
                 <li><a href="/apply">Apply</a></li>
                 </ul>
-            </div>
-                -->
+            </div> -->
+                
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -44,9 +87,9 @@
     <header class="about">
     <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">About</h1>
+                <h1 id="homeHeading" align = "center">ABOUT OUR TEAM</h1>
                 <hr>
-                <p> A short description about the team (basic common background?) </p>
+                <p align = "center"> A short description about the team (basic common background?) </p>
             </div>
     </div>
     </header>
@@ -54,63 +97,69 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Advisors</h2>
+                            <h2 align = "center" class="section-heading">MEMBERS</h2>
                             <hr class="primary">
                         </div>
                     </div>
                 </div>
-                <div class="container">
+
+                <div class="container_member">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 text-center">
                             <div class="service-box">
-                            <img src="/Advisor/" alt="Advisor1">
+                            <img src="/member/" alt="member1_image" style = "border:5px solid #021a40;">
     
-                                <h3>Advisor #1</h3>
-                                <p>Bio</p>
+                                <h3>MEMBER 1'S NAME</h3>
+                                <p>BIO</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="container_member">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                            <img src="/member/" alt="member2_image" style = "border:5px solid #021a40;">
+    
+                                <h3>MEMBER 2'S NAME</h3>
+                                <p>BIO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container_member">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                            <img src="/member/" alt="member3_image" style = "border:5px solid #021a40;">
+    
+                                <h3>MEMBER 3'S NAME</h3>
+                                <p>BIO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container_member">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                            <img src="/member/" alt="member4_image" style = "border:5px solid #021a40;">
+    
+                                <h3>MEMBER 4'S NAME</h3>
+                                <p>BIO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
-   <section id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Meet the Team</h2>
-                        <hr class="primary">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <img src="/member1/" alt="member1">
-                            <h3>Member 1</h3>
-                            <p>Bio</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                        <img src="/member2/" alt="member2">
-                            <h3>Member 2</h3>
-                            <p>Bio</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <img src="/member3/" alt="member3">
-                            <h3>Member 3</h3>
-                            <p>Bio</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 <header style="background-color: #B6B6B4; min-height: 60%">
-                    <div class="header-content" style="padding-top: 60px">
+                    <div class="header-content2" style="padding-top: 60px">
                             <div class="header-content-inner">
-                                <h1 id="homeHeading">Challenges</h1>
+                                <h2 id="homeHeading">Challenges</h2>
                                 <hr>
                                 <p> Description about first challenge </p>
                             </div>
